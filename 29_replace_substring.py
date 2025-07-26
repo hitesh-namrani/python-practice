@@ -1,0 +1,5 @@
+string=input("give main string : ")
+substring=input("give substring to be replaced : ")
+substring2=input("give new substring : ")
+string=string.replace(substring,substring2)
+print(f"new string is : {string}")

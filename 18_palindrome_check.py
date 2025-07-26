@@ -1,6 +1,6 @@
 num=int(input("Give number to be checked : "))
 if num<0:
-    print(num,"is not a pallindrome")
+    print(num,"is not a palindrome")
 else:
     temp=num
     rev=0
@@ -8,6 +8,6 @@ else:
         rev=(rev*10)+(temp%10)
         temp//=10
     if num==rev:
-        print(num,"is a pallindrome")
+        print(num,"is a palindrome")
     else:
-        print(num,"is not a pallindrome")
+        print(num,"is not a palindrome")

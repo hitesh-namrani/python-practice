@@ -1,0 +1,7 @@
+f=open("sample.txt",'w')
+content=input("Give content to be written in file : ")
+f.write(content)
+f.close()
+f=open("sample.txt",'r')
+content=f.read()
+print(f"Content written in file is : {content}")
